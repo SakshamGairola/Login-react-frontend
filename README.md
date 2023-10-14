@@ -1,8 +1,27 @@
-# React + Vite
+### Login/Registration page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react frontend service that handles authentication i.e., login and registration.
 
-Currently, two official plugins are available:
+## How to run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the got repo run `git clone https://github.com/SakshamGairola/Login-react-frontend.git`
+
+Install required dependencies `npm install`
+
+To run the application run `npm run dev`
+
+## Components in application
+
+`main.jsx` is the staring point of the application.
+
+`components/` directory holds 2 sub directories `Auth/` and `Home/` with their respective components.
+
+`Auth` component gives login/registration form.
+
+`Home` component gives user detail.
+
+`api/` directory contains required api methods to connect to backend service.
+
+## Environment Variables
+
+`VITE_PUBLIC_BAE_URL`: species the url to connect to the backend service
